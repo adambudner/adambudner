@@ -93,5 +93,6 @@ function explodeHearts() {
 yesBtn.addEventListener('click', function() {
     document.getElementById("tekst").innerText = "JUPIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII :33333333333333";
     shrinkBtn.style.opacity = 0;
+    shrinkBtn.style.pointerEvents = 'none'; 
     explodeHearts();
 });
